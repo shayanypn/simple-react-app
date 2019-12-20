@@ -16,9 +16,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "dev": "nextein",
-    "export": "nextein build && nextein export",
-    "deploy": "now ./out --static --no-clipboard --token=$NOW_TOKEN --public" 
+    "deploy": "now ./build --static --no-clipboard --token=$NOW_TOKEN --public"
   },
   "eslintConfig": {
     "extends": "react-app"
