@@ -15,7 +15,10 @@
     "start": "BROWSER=\"none\" react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "dev": "nextein",
+    "export": "nextein build && nextein export",
+    "deploy": "now ./out --static --no-clipboard --token=$NOW_TOKEN --public" 
   },
   "eslintConfig": {
     "extends": "react-app"
